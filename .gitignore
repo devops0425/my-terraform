@@ -1,0 +1,35 @@
+# Terraform files
+.terraform
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+override.tf
+override.tf.json
+.terraformrc
+terraform-cloud.hcl
+
+# Crash log (sometimes produced)
+crash.log
+
+# Ignore files in subdirectories named .terraform
+**/.terraform/*
+
+# If you keep your modules in a modules/ subdirectory:
+# modules/*/.terraform
+
+# Ignore generated files (if any)
+# *.tfplan
+
+# Sensitive credentials (if not using secure secret management)
+# *.pem
+# *.key
+# credentials.json
+
+# Temporary files or directories created by your OS or editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
